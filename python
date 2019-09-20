@@ -4,9 +4,25 @@
 #words together in the following list
 still_words = ['1','22','333','4444','55555']
 
+#Answer
+
+len(still_words[0] + still_words[1] + still_words[2]
++ still_words[3]+ still_words[4])
+
 
 # 2 - get the numeric values of the list items (eg. the value of '22' is 22), and print the sum.
 
+still_words2 = [int(still_words[0]), int(still_words[1]), 
+int(still_words[2]), int(still_words[3]), int(still_words[4])]
+
+print(still_words2)
+sum(still_words2)
 
 # 3 - How do you fix the typo in this list, without rewriting the whole list?
 words = ['one','two','three','for','five']
+
+# Answer 
+
+words[3] = 'four'
+
+print(words)
